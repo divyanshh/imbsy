@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_back2"
+    tools:context="com.divyanshjain.imbsy.SetMessage">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:hint="Enter Message Here"
+        android:textColor="#d9d2d2"
+        android:textColorHint="#d9d2d2"
+        android:id="@+id/editText2"
+        android:layout_marginTop="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="Set Message"
+        android:textColor="#d9d2d2"
+        android:id="@+id/setMessage"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/buttonshape2"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+</RelativeLayout>

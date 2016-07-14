@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/new_back2"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone No"
+            android:textColorHint="#d9d2d2"
+            android:inputType="number"
+            android:textColor="#d9d2d2"
+            android:id="@+id/etSQLNo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:text="View List"
+            android:background="@drawable/buttonshape2"
+            android:textColor="#d9d2d2"
+            android:id="@+id/bSQLopenView"
+            android:layout_below="@+id/bSQLUpdate"
+            android:layout_alignStart="@+id/bSQLUpdate"
+            android:layout_marginTop="51dp"
+            android:layout_alignEnd="@+id/bSQLUpdate" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:text="Update List"
+            android:id="@+id/bSQLUpdate"
+            android:background="@drawable/buttonshape2"
+            android:textColor="#d9d2d2"
+            android:layout_centerVertical="true"
+            android:layout_alignEnd="@+id/etSQLNo"
+            android:layout_alignStart="@+id/etSQLNo" />
+
+    </RelativeLayout>
+</LinearLayout>
